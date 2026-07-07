@@ -5,8 +5,8 @@ export const DESTINATIONS = [
     name: 'Kashi (Varanasi)',
     state: 'Uttar Pradesh',
     circuit: 'Northern Spiritual Circuit',
-    image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/kashi.png',
+    heroImage: '/images/kashi.png',
     description: 'The spiritual capital of India, renowned for Kashi Vishwanath Temple, sacred ghats along the Ganges, and ancient rituals that attract pilgrims worldwide.',
     highlights: [
       'VIP Kashi Vishwanath Temple Darshan Coordination',
@@ -23,8 +23,8 @@ export const DESTINATIONS = [
     name: 'Ayodhya',
     state: 'Uttar Pradesh',
     circuit: 'Ramayana Circuit',
-    image: 'https://images.unsplash.com/photo-1705861144421-a9d8c3666f7d?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1705861144421-a9d8c3666f7d?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/ayodhya.png',
+    heroImage: '/images/ayodhya.png',
     description: 'The birthplace of Lord Rama and home to the majestic Ram Mandir. A premier destination experiencing unprecedented global spiritual tourism demand.',
     highlights: [
       'Shri Ram Janmabhoomi Teerth Kshetra Guided VIP Access',
@@ -41,8 +41,8 @@ export const DESTINATIONS = [
     name: 'Prayagraj',
     state: 'Uttar Pradesh',
     circuit: 'Northern Spiritual Circuit',
-    image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/prayagraj.png',
+    heroImage: '/images/prayagraj.png',
     description: 'The holy confluence (Triveni Sangam) of the Ganges, Yamuna, and mythical Saraswati rivers. Host to the world-renowned Kumbh Mela and Magh Mela.',
     highlights: [
       'Private Motorboat Holy Dip at Triveni Sangam',
@@ -61,8 +61,8 @@ export const DESTINATIONS = [
     name: 'Gaya & Bodh Gaya',
     state: 'Bihar',
     circuit: 'Eastern Ancestral & Buddhist Circuit',
-    image: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/gaya.png',
+    heroImage: '/images/gaya.png',
     description: 'A deeply revered destination for both Hindu Pind Daan rituals at Vishnupad Temple and international Buddhist pilgrimage at the UNESCO World Heritage Mahabodhi Temple.',
     highlights: [
       'Vishnupad Temple Special Pind Daan Priest Coordination',
@@ -81,8 +81,8 @@ export const DESTINATIONS = [
     name: 'Madurai',
     state: 'Tamil Nadu',
     circuit: 'Southern Dravidian Temple Circuit',
-    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/madurai.png',
+    heroImage: '/images/madurai.png',
     description: 'One of the oldest continuously inhabited cities in the world, dominated by the magnificent Dravidian architecture of the Meenakshi Amman Temple.',
     highlights: [
       'Meenakshi Amman Temple VIP Darshan & Night Ceremony',
@@ -99,8 +99,8 @@ export const DESTINATIONS = [
     name: 'Rameshwaram',
     state: 'Tamil Nadu',
     circuit: 'Char Dham & Southern Circuit',
-    image: 'https://images.unsplash.com/photo-1608958435020-e8a7109ba809?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1608958435020-e8a7109ba809?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/rameshwaram.png',
+    heroImage: '/images/rameshwaram.png',
     description: 'A sacred Char Dham pilgrimage site located on Pamban Island, famous for the Ramanathaswamy Temple with its longest temple corridor in the world and 22 sacred wells (Theerthams).',
     highlights: [
       '22 Holy Wells (Theerthams) Ritual Bath Assistance',
@@ -117,8 +117,8 @@ export const DESTINATIONS = [
     name: 'Kanyakumari',
     state: 'Tamil Nadu',
     circuit: 'Southern Coastal & Spiritual Circuit',
-    image: 'https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/kanyakumari.png',
+    heroImage: '/images/kanyakumari.png',
     description: 'The southernmost tip of the Indian subcontinent where the Arabian Sea, Bay of Bengal, and Indian Ocean meet. Home to the sacred Kanyakumari Amman Temple and Vivekananda Rock Memorial.',
     highlights: [
       'Vivekananda Rock Memorial & Thiruvalluvar Statue Boat Priority',
@@ -137,8 +137,8 @@ export const DESTINATIONS = [
     name: 'Mallikarjun Jyotirlinga (Srisailam)',
     state: 'Telangana',
     circuit: 'Deccan Jyotirlinga & Shakti Peetha Circuit',
-    image: 'https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/srisailam.png',
+    heroImage: '/images/srisailam.png',
     description: 'A unique spiritual destination nestled in the Nallamala forests, where Lord Shiva (Mallikarjuna Jyotirlinga) and Goddess Parvati (Bhramarambika Shakti Peetha) reside together.',
     highlights: [
       'Sparsha Darshan & Abhishekam VIP Booking Assistance',
@@ -155,8 +155,8 @@ export const DESTINATIONS = [
     name: 'Tirumala Tirupati',
     state: 'Telangana / Andhra Circuit',
     circuit: 'Supreme Dravidian & Spiritual Circuit',
-    image: 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1200&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1920&q=80',
+    image: '/images/tirupati.png',
+    heroImage: '/images/tirupati.png',
     description: 'The abode of Lord Venkateswara on the sacred Tirumala hills. The most visited and venerated spiritual pilgrimage center in the world.',
     highlights: [
       'Special Entry (₹300) & VIP Break Darshan Pass Coordination',
@@ -176,27 +176,27 @@ export const STATES_SERVED = [
     destinationsCount: 3,
     highlights: ['Kashi (Varanasi)', 'Ayodhya', 'Prayagraj'],
     description: 'The heartland of Hindu spiritual heritage, featuring sacred ghats, Ram Janmabhoomi, and Triveni Sangam.',
-    image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80'
+    image: '/images/kashi.png'
   },
   {
     name: 'Bihar',
     destinationsCount: 1,
     highlights: ['Gaya & Bodh Gaya'],
     description: 'A profound ancestral and spiritual center revered across Hinduism and global Buddhism.',
-    image: 'https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80'
+    image: '/images/gaya.png'
   },
   {
     name: 'Tamil Nadu',
     destinationsCount: 3,
     highlights: ['Madurai', 'Rameshwaram', 'Kanyakumari'],
     description: 'Home to majestic Dravidian temple architecture, Char Dham shrines, and the southern ocean confluence.',
-    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80'
+    image: '/images/madurai.png'
   },
   {
     name: 'Telangana',
     destinationsCount: 2,
     highlights: ['Mallikarjun Srisailam', 'Tirumala Tirupati'],
     description: 'Sacred Deccan hills hosting revered Jyotirlingas, Shakti Peethas, and Lord Venkateswara.',
-    image: 'https://images.unsplash.com/photo-1620766182966-c6eb5ed2b788?auto=format&fit=crop&w=800&q=80'
+    image: '/images/tirupati.png'
   }
 ];

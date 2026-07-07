@@ -7,31 +7,31 @@ const heroSlides = [
   {
     title: "Kashi Vishwanath & Ganga Ghats",
     location: "Varanasi, Uttar Pradesh",
-    image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/kashi.png",
     tag: "VIP Temple Darshan Protocol"
   },
   {
     title: "Ram Mandir & Sacred Saryu",
     location: "Ayodhya, Uttar Pradesh",
-    image: "https://images.unsplash.com/photo-1705861144421-a9d8c3666f7d?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/ayodhya.png",
     tag: "Guaranteed Room Allotments"
   },
   {
     title: "Meenakshi Amman Temple Architecture",
     location: "Madurai, Tamil Nadu",
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/madurai.png",
     tag: "Southern Dravidian Circuit"
   },
   {
     title: "Tirumala Venkateswara Abode",
     location: "Tirupati, Telangana / AP Circuit",
-    image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/tirupati.png",
     tag: "VIP Break Darshan Handling"
   },
   {
     title: "Ramanathaswamy Sacred Corridor",
     location: "Rameshwaram, Tamil Nadu",
-    image: "https://images.unsplash.com/photo-1608958435020-e8a7109ba809?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/rameshwaram.png",
     tag: "Char Dham Ground Support"
   }
 ];

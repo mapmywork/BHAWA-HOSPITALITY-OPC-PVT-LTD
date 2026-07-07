@@ -59,8 +59,8 @@ const Footer = ({ onOpenPartnerModal }) => {
           {/* Col 1: Brand & About (4 cols) */}
           <div className="lg:col-span-4 space-y-5">
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#F97316] to-[#C89B3C] flex items-center justify-center shadow-lg">
-                <span className="text-2xl" role="img" aria-label="Temple">🛕</span>
+              <div className="w-12 h-12 rounded-xl overflow-hidden border border-[#C89B3C]/50 shadow-lg shrink-0">
+                <img src="/logo.jpeg" alt="Bhawa Hospitality Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="font-playfair font-bold text-2xl text-white tracking-tight">

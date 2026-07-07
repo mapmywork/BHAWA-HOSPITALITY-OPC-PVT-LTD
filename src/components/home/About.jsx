@@ -51,7 +51,7 @@ const About = ({ onOpenPartnerModal }) => {
               <div className="space-y-4">
                 <div className="h-48 sm:h-64 rounded-2xl overflow-hidden shadow-xl border-2 border-white">
                   <img 
-                    src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=80" 
+                    src="/images/kashi.png" 
                     alt="Kashi Ghats Pilgrimage" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
@@ -70,7 +70,7 @@ const About = ({ onOpenPartnerModal }) => {
               <div className="space-y-4 pt-8">
                 <div className="h-56 sm:h-72 rounded-2xl overflow-hidden shadow-xl border-2 border-white">
                   <img 
-                    src="https://images.unsplash.com/photo-1705861144421-a9d8c3666f7d?auto=format&fit=crop&w=600&q=80" 
+                    src="/images/ayodhya.png" 
                     alt="Ram Mandir Ayodhya" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />

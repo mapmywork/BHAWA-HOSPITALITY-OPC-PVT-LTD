@@ -22,10 +22,10 @@ const Navbar = ({ onOpenPartnerModal }) => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'About DMC', path: '/#about' },
-    { name: 'B2B Services', path: '/#services' },
-    { name: 'Sacred Destinations', path: '/destinations' },
-    { name: 'Partner Program', path: '/partner-program' },
+    { name: 'About Us', path: '/#about' },
+    { name: 'Services', path: '/#services' },
+    { name: 'Destinations', path: '/destinations' },
+    { name: 'Partners', path: '/partner-program' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -49,25 +49,25 @@ const Navbar = ({ onOpenPartnerModal }) => {
       {/* Top B2B Announcement Bar */}
       <div className="bg-[#0F172A] text-white text-xs py-2 px-4 border-b border-[#C89B3C]/20 z-50 relative">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <div className="flex items-center gap-2 text-[#FAFAF8]/90">
-            <ShieldCheck className="w-3.5 h-3.5 text-[#C89B3C]" />
-            <span className="font-semibold tracking-wide uppercase text-[11px] text-[#C89B3C]">Strictly B2B Trade Only:</span>
-            <span>Serving Global Tour Operators & Travel Agencies Since 2016</span>
+          <div className="flex items-center gap-2 text-[#FAFAF8]/90 text-center sm:text-left">
+            <ShieldCheck className="w-3.5 h-3.5 text-[#C89B3C] shrink-0" />
+            <span className="font-semibold tracking-wide uppercase text-[11px] text-[#C89B3C] whitespace-nowrap">Strictly B2B Trade Only:</span>
+            <span className="text-[11px] sm:text-xs">Serving Global Tour Operators & Travel Agencies Since 2016</span>
           </div>
           <div className="flex items-center gap-4">
             <a 
               href={`tel:${BRAND.phone}`}
-              className="flex items-center gap-1.5 text-white/90 hover:text-[#C89B3C] transition-colors font-medium"
+              className="flex items-center gap-1.5 text-white/90 hover:text-[#C89B3C] transition-colors font-medium whitespace-nowrap"
             >
-              <Phone className="w-3.5 h-3.5 text-[#F97316]" />
+              <Phone className="w-3.5 h-3.5 text-[#F97316] shrink-0" />
               <span>24x7 B2B Helpdesk: +{BRAND.phone}</span>
             </a>
             <span className="hidden md:inline text-white/20">|</span>
             <button 
               onClick={onOpenPartnerModal}
-              className="flex items-center gap-1 text-[#C89B3C] hover:text-white font-semibold transition-colors cursor-pointer"
+              className="flex items-center gap-1 text-[#C89B3C] hover:text-white font-semibold transition-colors cursor-pointer whitespace-nowrap"
             >
-              <Lock className="w-3 h-3" />
+              <Lock className="w-3 h-3 shrink-0" />
               <span>Agent Login / Register</span>
             </button>
           </div>
@@ -79,22 +79,22 @@ const Navbar = ({ onOpenPartnerModal }) => {
         className={`sticky top-0 z-40 transition-all duration-300 ${
           isScrolled 
             ? 'bg-[#FAFAF8]/95 backdrop-blur-md shadow-lg border-b border-[#C89B3C]/20 py-3' 
-            : 'bg-[#FAFAF8]/80 backdrop-blur-sm py-5 border-b border-gray-200/50'
+            : 'bg-[#FAFAF8]/80 backdrop-blur-sm py-4 border-b border-gray-200/50'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4">
             
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#0F172A] to-[#1E293B] flex items-center justify-center border border-[#C89B3C]/40 shadow-md group-hover:border-[#C89B3C] transition-all duration-300">
-                <span className="text-2xl" role="img" aria-label="Temple">🛕</span>
+            <Link to="/" className="flex items-center gap-3 group shrink-0">
+              <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl overflow-hidden border border-[#C89B3C]/50 shadow-md group-hover:border-[#C89B3C] transition-all duration-300 shrink-0">
+                <img src="/logo.jpeg" alt="Bhawa Hospitality Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
-                <span className="font-playfair font-bold text-xl sm:text-2xl text-[#0F172A] tracking-tight group-hover:text-[#F97316] transition-colors">
+                <span className="font-playfair font-bold text-xl sm:text-2xl text-[#0F172A] tracking-tight group-hover:text-[#F97316] transition-colors whitespace-nowrap">
                   Bhawa <span className="text-[#C89B3C]">Hospitality</span>
                 </span>
-                <span className="text-[10px] font-semibold tracking-widest text-[#64748B] uppercase">
+                <span className="text-[10px] font-semibold tracking-widest text-[#64748B] uppercase whitespace-nowrap hidden xl:inline">
                   B2B Destination Management Company
                 </span>
               </div>
@@ -108,7 +108,7 @@ const Navbar = ({ onOpenPartnerModal }) => {
                   <button
                     key={link.name}
                     onClick={() => handleNavClick(link.path)}
-                    className={`px-3.5 py-2 rounded-lg text-sm font-semibold transition-all cursor-pointer ${
+                    className={`px-3 py-2 rounded-lg text-sm font-semibold whitespace-nowrap transition-all cursor-pointer ${
                       isActive 
                         ? 'text-[#F97316] bg-[#F97316]/10 font-bold' 
                         : 'text-[#0F172A] hover:text-[#F97316] hover:bg-[#0F172A]/5'
@@ -120,7 +120,7 @@ const Navbar = ({ onOpenPartnerModal }) => {
                   <Link
                     key={link.name}
                     to={link.path}
-                    className={`px-3.5 py-2 rounded-lg text-sm font-semibold transition-all ${
+                    className={`px-3 py-2 rounded-lg text-sm font-semibold whitespace-nowrap transition-all ${
                       isActive 
                         ? 'text-[#F97316] bg-[#F97316]/10 font-bold' 
                         : 'text-[#0F172A] hover:text-[#F97316] hover:bg-[#0F172A]/5'
@@ -133,15 +133,15 @@ const Navbar = ({ onOpenPartnerModal }) => {
             </nav>
 
             {/* Desktop Action Buttons */}
-            <div className="hidden lg:flex items-center gap-3">
+            <div className="hidden lg:flex items-center gap-3 shrink-0">
               <button
                 onClick={onOpenPartnerModal}
-                className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-bold text-white rounded-xl group bg-gradient-to-br from-[#F97316] to-[#C89B3C] group-hover:from-[#F97316] group-hover:to-[#0F172A] hover:text-white dark:text-white shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer"
+                className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-bold text-white rounded-xl group bg-gradient-to-br from-[#F97316] to-[#C89B3C] group-hover:from-[#F97316] group-hover:to-[#0F172A] hover:text-white dark:text-white shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer shrink-0"
               >
-                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-[#0F172A] rounded-[10px] group-hover:bg-opacity-0 flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-[#C89B3C] group-hover:text-white transition-colors" />
+                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-[#0F172A] rounded-[10px] group-hover:bg-opacity-0 flex items-center gap-2 whitespace-nowrap">
+                  <Sparkles className="w-4 h-4 text-[#C89B3C] group-hover:text-white transition-colors shrink-0" />
                   <span>Become Our Partner</span>
-                  <ChevronRight className="w-4 h-4" />
+                  <ChevronRight className="w-4 h-4 shrink-0" />
                 </span>
               </button>
             </div>

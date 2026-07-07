@@ -23,8 +23,10 @@ const Modal = ({ isOpen, onClose, title, children, maxWidth = 'max-w-2xl' }) => 
       >
         {/* Modal Header */}
         <div className="bg-[#0F172A] px-6 py-4 flex items-center justify-between border-b border-[#C89B3C]/20 text-white">
-          <h3 className="font-playfair text-xl font-bold tracking-wide flex items-center gap-2">
-            <span role="img" aria-label="Temple">🛕</span>
+          <h3 className="font-playfair text-xl font-bold tracking-wide flex items-center gap-2.5">
+            <div className="w-7 h-7 rounded-lg overflow-hidden shrink-0 border border-[#C89B3C]/40">
+              <img src="/logo.jpeg" alt="Bhawa Hospitality Logo" className="w-full h-full object-cover" />
+            </div>
             <span>{title}</span>
           </h3>
           <button
