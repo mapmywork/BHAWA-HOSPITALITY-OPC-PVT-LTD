@@ -16,6 +16,22 @@ const PartnerModal = ({ isOpen, onClose, initialDestination = '' }) => {
 
   const onSubmit = (data) => {
     console.log("B2B Partner Inquiry Submitted:", data);
+    
+    let messageText = "*New B2B Partner Inquiry*\n";
+    if (data.agencyName) messageText += `*Agency Name:* ${data.agencyName}\n`;
+    if (data.contactPerson) messageText += `*Contact Person:* ${data.contactPerson}\n`;
+    if (data.email) messageText += `*Email:* ${data.email}\n`;
+    if (data.phone) messageText += `*Phone:* ${data.phone}\n`;
+    if (data.country) messageText += `*Country/City:* ${data.country}\n`;
+    if (data.partnerType) messageText += `*Partner Type:* ${data.partnerType}\n`;
+    if (data.destinationRequired) messageText += `*Destination:* ${data.destinationRequired}\n`;
+    if (data.travelDate) messageText += `*Travel Date:* ${data.travelDate}\n`;
+    if (data.passengers) messageText += `*Passengers:* ${data.passengers}\n`;
+    if (data.message) messageText += `*Message:* ${data.message}\n`;
+
+    const encodedMessage = encodeURIComponent(messageText);
+    window.open(`https://wa.me/919161765406?text=${encodedMessage}`, '_blank');
+
     setIsSubmitted(true);
     setTimeout(() => {
       setIsSubmitted(false);
